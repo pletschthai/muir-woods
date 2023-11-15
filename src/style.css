@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  margin: 0 auto;
 }
 
 header {
@@ -44,4 +45,33 @@ header button {
   header h1 {
     font-size: 20px;
   }
+}
+
+.card {
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  object-fit: contain;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+  background-color: navajowhite;
+  column-count: 2;
+  column-gap: 20px;
+  padding: 10px;
+}
+.about-paragraphs p {
+  margin: 10px;
 }
