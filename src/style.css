@@ -78,6 +78,27 @@ header button {
   text-align: center;
   background-color: antiquewhite;
 }
+
+.footer-image {
+  width: 100%;
+  display: block;
+}
+
+.container-tree {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #033330;
+  padding: 20px;
+  color: white;
+}
+
+.cards-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 /* Banner - shared styles */
 .banner {
   background: orange;
@@ -234,19 +255,4 @@ header button {
 footer {
   position: relative;
   width: 100%;
-}
-
-.footer-image {
-  width: 100%;
-  display: block;
-}
-
-.container-tree {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #033330;
-  padding: 20px;
-  color: white;
 }
